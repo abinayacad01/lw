@@ -57,7 +57,7 @@ border-start-start-radius: 50%;
 }
 
 .bg9{
-	background-image: url(https://i.postimg.cc/vmNRKwsJ/dev3.jpg);
+	background-image: url(images/dev3.jpg);
 	background-size: cover;
 	
 }
@@ -110,15 +110,3 @@ border: 1px solid black;
     font-family:'Source Sans Pro', sans-serif;
     padding: 30px;
 }
- .tab{
-	font-size: 30px;
-	text-decoration: none;
-	width: 100px;
-	height: 100px;
-	background: #3B9C9C;
-	padding: 50px;
-
- }
- .tabd{
-	
- }
