@@ -113,12 +113,33 @@ border: 1px solid black;
  .tab{
 	font-size: 30px;
 	text-decoration: none;
-	width: 100px;
+	text-align: center ;
+	width: 250px;
 	height: 100px;
-	background: #3B9C9C;
 	padding: 50px;
+	margin: 50px;
+}
+.tab:hover{
+	color: floralwhite;
+}
 
+ .tcolor1{
+	background-color: #b4dac3;
  }
+ 
+ .tcolor2{
+	background-color: #13c7c7;
+ }
+
+ .tcolor3{
+	background-color:#b4dad8;
+ }
+
+
  .tabd{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
 	
  }
