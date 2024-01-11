@@ -22,7 +22,7 @@ img{
 }
 h1{
 	font-size: 50px;
-	color: white;
+	color: rgb(255, 255, 255);
 }
 .description1{
     font-size: 20px;
@@ -114,32 +114,56 @@ border: 1px solid black;
 	font-size: 30px;
 	text-decoration: none;
 	text-align: center ;
-	width: 250px;
-	height: 100px;
-	padding: 50px;
+	padding: 90px;
 	margin: 50px;
+	
 }
 .tab:hover{
 	color: floralwhite;
 }
 
  .tcolor1{
-	background-color: #b4dac3;
+	background-color: rgb(247, 185, 181);
+
  }
  
  .tcolor2{
-	background-color: #13c7c7;
+	background-color:rgb(214, 159, 155) ;
  }
 
  .tcolor3{
-	background-color:#b4dad8;
+	background-color:rgb(233, 196, 193);
+ }
+
+ .tcolor4{
+	background-color:#b4dac3;
+ }
+
+ .tcolor5{
+	background-color:#13c7c7 ;
+ }
+
+ .tcolor6{
+	background-color: #b4dad8;
+ }
+
+ .tcolor7{
+	background-color: rgb(247, 213, 191);
+ }
+
+ .tcolor8{
+	background-color: rgb(211, 191, 164);
+ }
+
+ .tcolor9{
+	background-color: rgb(247, 207, 171);
  }
 
 
  .tabd{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr; 
-    gap: 0px 0px; 
+    gap: 20px 0px; 
 	
  }
