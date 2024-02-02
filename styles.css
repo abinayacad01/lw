@@ -140,5 +140,8 @@ border: 1px solid black;
 	grid-template-columns: repeat(3, 1fr);
 	justify-content: center;
 	align-items: center;
-	
- }
+	}
+
+.tcolor7{
+	padding:75px;
+}
