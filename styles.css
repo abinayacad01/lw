@@ -83,6 +83,7 @@ border-start-start-radius: 50%;
 	font-size: 25px;
 	font-family:'Source Sans Pro', sans-serif;
 	border: 1px solid black;
+	border-radius: 20px;
 
 }
 ::placeholder{
@@ -105,6 +106,7 @@ font-family:'Source Sans Pro', sans-serif;
 background:#076b56;
 color: #ffff;
 border: 1px solid black;
+border-radius: 15px;
 }
 .link{
 	color: #076b56;
@@ -173,7 +175,40 @@ border: 1px solid black;
 	padding: 0;
 	margin: 0;
 }
-
-
-  
-  
+.aboutuspage{
+	background-color: #076b56;
+	gap: 20px;
+	justify-content: center;
+	place-items: center;
+	
+}
+.display{
+	display: flex;
+}
+.bga{
+	height: 300px;
+	width: 300px;
+	margin: 50px;
+}
+.h1a{
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 40px;
+	padding-top: 50px;
+	padding-bottom: 0;
+	margin-bottom:15px;
+}
+.hra{
+	width: 30%;
+	color: #ffff;
+	float: left;
+}
+.pa{
+	color: #ffff;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:18px;
+}
+@media screen and (max-width:300px){
+	li a{
+		font-size: 10px;
+	}
+}
