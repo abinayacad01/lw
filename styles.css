@@ -184,6 +184,7 @@ border-radius: 15px;
 }
 .display{
 	display: flex;
+	align-items: center;
 }
 .bga{
 	height: 250px;
@@ -195,14 +196,13 @@ border-radius: 15px;
 }
 .h1a{
 	font-family:'Source Sans Pro', sans-serif;
-	font-size: 40px;
-	padding-top: 50px;
-	padding-bottom: 0;
+	font-size: 30px;
+    padding-bottom: 0;
 	margin-bottom:15px;
 	color: #ffff;
 }
 .hra{
-	width: 40%;
+	width: 50%;
 	color: #ffff;
 	float: left;
 	
@@ -210,7 +210,10 @@ border-radius: 15px;
 .pa{
 	color: #ffff;
 	font-family:'Source Sans Pro', sans-serif;
-	font-size:18px;
+	font-size:17px;
+	margin: 0%;
+	padding-top: 30px;
+	padding-bottom: 0%;
 }
 .icona{
 	display: flex;
@@ -224,4 +227,24 @@ border-radius: 15px;
 .instaicon{
 	height: 35px;
 	width: 35px;
+}
+.terms{
+	color: #ffff;
+}
+
+.pa1{
+	color: #ffff;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:22px;
+}
+.a1{
+	color:#ffff;
+	font-size: 24px;
+	padding-top: 0%;
+}
+.pa2{
+	color: #ffff;
+	font-size: 12px;
+	font-family:'Source Sans Pro', sans-serif;
+	float: left;
 }
