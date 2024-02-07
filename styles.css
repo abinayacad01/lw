@@ -248,3 +248,13 @@ border-radius: 15px;
 	font-family:'Source Sans Pro', sans-serif;
 	float: left;
 }
+.bottomhead{																										
+	display: flex;
+	justify-content: center;
+	place-items	: center;
+    padding: 50px;
+}
+.h2a{
+	font-size: 45px;
+	color: #076b56;
+}
