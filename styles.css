@@ -32,7 +32,7 @@ h1{
 	font-size: 20px;
 	color: white;
 }
-ul{
+.ulh{
 	list-style-type: none;
 	background-color:#076b56;
 	display: flex;
@@ -42,7 +42,7 @@ ul{
 	justify-content: center;
 }
 
-li a{
+.lih{
 	color: white;
 	text-decoration: none;
 	font-size: 25PX;
@@ -252,9 +252,33 @@ border-radius: 15px;
 	display: flex;
 	justify-content: center;
 	place-items	: center;
-    padding: 50px;
+    padding-top: 45px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
 }
 .h2a{
 	font-size: 45px;
 	color: #076b56;
+}
+.hra1{
+	color:#000;
+	width: 50%;
+	padding-top: 0px;
+	margin-top: 0%;
+}
+.ula{
+	list-style-type: none;
+	justify-content: center;
+	display: flex;
+}
+.liaa{
+
+}
+
+.ula .liaa:hover{
+	color:#076b56;
+background-color: white;
+border-end-end-radius: 50%;
+border-start-start-radius: 50%;
 }
