@@ -13,8 +13,36 @@
 	width: 50%;
 	color: black;
 }
+.login{
+
+	text-decoration: none;
+	color: #ffff;
+	font-size: 24px;
+	
+}
+.fas{
+	color: #ffff;
+	width: 25px;
+	height: 25px;
+}
+.login:hover{
+	background-color: #ffff;
+	color: #076b56;
+}
+.topleft{
+    text-align: right;
+	display: flex;
+	background-color: #076b56;
+	gap: 10px;
+	justify-content: center;
+	place-items: right;
+	padding-right: 5px;
+	padding-left: 1220px;
+	padding-top: 7px;
+}
+
 .bg1{
-		background-color: #076b56;
+	background-color: #076b56;
 }
 img{
 	width: 50px;
@@ -45,7 +73,7 @@ h1{
 .lih{
 	color: white;
 	text-decoration: none;
-	font-size: 25PX;
+	font-size: 20PX;
 	padding: 10px 70px;
 
 }
@@ -138,7 +166,7 @@ border-radius: 15px;
 	list-style-type: none;
 	display: flex;
     float: right;
-	padding-left: 430px;
+	padding-left: 280px;
 }
 .lit{
 	color: #ffff;
@@ -283,3 +311,33 @@ border-radius: 15px;
    border-radius: 1px;
 
 }
+
+.popup {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:#ffff;
+	box-shadow:0 0 20px #000;
+	padding: 20px;
+	border-radius: 10px;
+	z-index: 9999;
+  }
+  
+  .popup-content {
+	color: #000;
+  }
+  
+  .close {
+	color: #000;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  .close:hover {
+	color: #000;
+  }
+  
