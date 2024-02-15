@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>loginpage</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
+<body class="loginbody">
+    <div class="loginbg">
+        <div class="loginhead">
+            <img style="height: 38px; width: 38px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_b1biQ1cspzClA_8K6EMv1nWkGMfRHhzDCQ&usqp=CAU">
+            <h1 class="h1l">CODE schoolz</h1>
+            <ul class="ull">
+                <li> <a class="lil" style="border-right: 1px solid #fffdfd;" href="homepage.html">Home</a></li>
+                <li> <a class="lil" style="border-right: 1px solid #fffdfd;" href="tutorial.html">Tutorials</a></li>
+                <li> <a class="lil" style="border-right: 1px solid #fffdfd;" href="#">Test page</a></li>
+                <li style="border-right: 1px solid rgb(255, 255, 255);"><a class="lil" href="#">Paid courses</a></li>
+                <li style="border-right: 1px solid rgb(255, 255, 255);"><a class="lil" href="login.html">Login</a></li>
+                 <li> <a class="lil" href="aboutus.html">About us</a></li>
+            </ul>
+        </div>
+        </div>
+    <div class="login-container">
+        <p class="h2l">Login</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <input type="text" class="placeholderl" id="username" name="username" placeholder="username">
+            </div>
+            <div class="form-group">
+                <input class="placeholderl" type="password" id="password" name="password" placeholder="password" required>
+            </div>
+            <input type="checkbox" id="show-password">
+            <label class="show-password" for="show-password">Show password</label>
+            <br>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
