@@ -5,15 +5,15 @@ document.getElementById("popup-link").addEventListener("click", function(event) 
   
   document.getElementById("close-popup").addEventListener("click", function() {
     document.getElementById("popup").style.display = "none";
-  });
+  })
+  function togglepassword(){
+    var passwordInput = document.getElementById("password");
+    var toggleCheckbox = document.getElementById("showPasswordCheckbox");
 
-  const showPasswordCheckbox = document.getElementById('show-password');
-const passwordField = document.getElementById('password');
-
-showPasswordCheckbox.addEventListener('change', function() {
-    if (this.checked) {
-        passwordField.type = 'text';
-    } else {
-        passwordField.type = 'password';
+    if (showPasswordCheckbox.checked){
+      passwordInput.type = "text";
     }
-});
+    else{
+      passwordInput.type = "password";
+    }
+  }

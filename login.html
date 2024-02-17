@@ -30,11 +30,11 @@
             <div class="form-group">
                 <input class="placeholderl" type="password" id="password" name="password" placeholder="password" required>
             </div>
-            <input type="checkbox" id="show-password">
-            <label class="show-password" for="show-password">Show password</label>
-            <br>
-            <br>
-            <button type="submit">Login</button>
+            <div class="form-group">
+                <input type="checkbox" id="showPasswordCheckbox" onchange="togglepassword()">
+                <label class="showpassword" for="show-password-checkbox">Show Password</label>
+            </div>
+            <center><button type="submit">Login</button></center>
         </form>
     </div>
     <script src="script.js"></script>

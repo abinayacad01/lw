@@ -382,8 +382,9 @@ input[type="password"] {
 }
 
 button {
-    width: 40%;
-    padding: 10px;
+    width: 35%;
+    padding: 8px;
+	margin: 5px;
 	border-radius: 5px;
     background-color: #076b56;
     color: #fff;
@@ -439,9 +440,8 @@ button:focus {
 	border-radius: 1px;
 }
 
-.show-password{
+.showpassword{
 	color: #076b56;
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Roboto', sans-serif;	
 	font-size: 13px;
-    
 }
