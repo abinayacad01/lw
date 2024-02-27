@@ -178,6 +178,9 @@ border-radius: 15px;
 .ult .lit:hover{
 	border-radius: 1px;
 }
+.ttab{
+	background-color: #198b75;
+}
 .tutorialbody{
 	background-color: #076b56;
 	width: 18%;
@@ -192,6 +195,7 @@ border-radius: 15px;
 	line-height: 2.1em;
 	display: block;
 }
+
 .tutorialbody .tab:hover{
 	background-color: #198b75;
 }
