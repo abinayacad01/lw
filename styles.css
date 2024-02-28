@@ -84,6 +84,7 @@ border-end-end-radius: 50%;
 border-start-start-radius: 50%;
 }
 
+
 .bg9{
 	
 	background-size: cover;
@@ -149,6 +150,7 @@ border-radius: 15px;
     padding-left:10px;
 	padding-top: 0px;
     margin:0%;
+
 }
 .h1t
 {
@@ -159,6 +161,7 @@ border-radius: 15px;
 
 .tutorialbg{
 	background-color: #076b56;
+	
 
 }
 
@@ -178,9 +181,7 @@ border-radius: 15px;
 .ult .lit:hover{
 	border-radius: 1px;
 }
-.ttab{
-	background-color: #198b75;
-}
+
 .tutorialbody{
 	background-color: #076b56;
 	width: 18%;
@@ -449,3 +450,7 @@ button:focus {
 	font-family: 'Roboto', sans-serif;	
 	font-size: 13px;
 }
+.h2i{
+	color: #000;
+}
+
