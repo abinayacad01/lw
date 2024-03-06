@@ -6,6 +6,8 @@ document.getElementById("popup-link").addEventListener("click", function(event) 
   document.getElementById("close-popup").addEventListener("click", function() {
     document.getElementById("popup").style.display = "none";
   })
+
+
   function togglepassword(){
     var passwordInput = document.getElementById("password");
     var toggleCheckbox = document.getElementById("showPasswordCheckbox");
@@ -17,3 +19,7 @@ document.getElementById("popup-link").addEventListener("click", function(event) 
       passwordInput.type = "password";
     }
   }
+
+  function loadPage(url) {
+    document.getElementById("iframei").src = url;
+}
